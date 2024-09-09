@@ -1,0 +1,28 @@
+---
+import { getCollection } from 'astro:content';
+export async function getStaticPaths() {
+  const blogEntries = await getCollection('newsletter');
+  return blogEntries.map(entry => ({
+    params: { id: entry.id}, props: { entry },
+  }));
+}
+const { entry } = Astro.props;
+---
+<h1>{entry.data.date.toDateString()}</h1>
+
+<ul>
+{entry.data.links.map((linkEntry,index) => 
+{
+  return <div>
+  <li>{index + 1}. {linkEntry.description} ({linkEntry.time_duration} {linkEntry.time_type}) : {linkEntry.link}</li>
+  <br/>
+  </div>
+})}
+</ul>
+
+{
+  entry.data.quote != null ? <p><q>{entry.data.quote}</q> - {entry.data.quote_author}</p> : ""
+}
+
+
+<p>{entry.data.bonus}</p>

@@ -1,0 +1,41 @@
+  {
+    "bonus": "That was a joke I heard from a physics teacher. My quick, dirty, non-physics teacher explanation: the Heisenberg Uncertainty principle in Quantum Mechanics essentially states that you can't \u2013 at the same time \u2013 accurately know both the momentum of a particle and that particle's location.",
+    "date": "May 17, 2024",
+    "links": [
+      {
+        "description": "Quantum Computing is real. Engineers are already finding ways to apply it to Cryptography, Drug Discovery, AI, and other fields. You can be the first of your friends to understand and appreciate how Quantum Computing works. The first half of this course focuses on the math behind quantum computing algorithms. You'll learn about Complex Numbers and Linear Algebra. Then you'll learn concepts like Qubits -- Quantum Bits -- along with Quantum Entanglement, Quantum Circuits, and Phase Kickback. Even though this course is designed for newcomers to Quantum Computing, I'm not going to downplay the importance of math skills in understanding this course. Fortunately, if you want to improve your math skills, freeCodeCamp also has a ton of university-level math courses to help get you there.",
+        "link": "https://www.freecodecamp.org/news/learn-the-algorithms-behind-quantum-computing/",
+        "order": "1",
+        "time_duration": "2",
+        "time_type": "hours"
+      },
+      {
+        "description": "If you're looking for a more beginner-friendly course, freeCodeCamp just published this JavaScript for Beginners course. This is an excellent way to pick up your first programming language. You'll learn about JavaScript Data Types, Operators, Control Flow, Functions, and even some Object-Oriented Programming concepts. You can follow the steps to set up your development environment on your computer, then code along step-by-step with this guided tour of JS.",
+        "link": "https://www.freecodecamp.org/news/learn-javascript-with-clear-explanations/",
+        "order": "2",
+        "time_duration": "4",
+        "time_type": "hours"
+      },
+      {
+        "description": "On this week's podcast, I interview designer and developer Gary Simon, who is founder of DesignCourse and has over a million YouTube subscribers. I ask him tons of questions about what it takes to become a professional designer in 2024. And we learn all about his own coding journey. He got his start creating thousands of logos for design clients. And he shares the story of how he got complacent mid-career -- right before most of his client work evaporated overnight. He hasn't taken his eye off the ball ever since. It was a blast learning so much from Gary. I think you'll enjoy this, too.",
+        "link": "https://www.freecodecamp.org/news/how-to-become-a-pro-designer-in-2024-interview-with-gary-simon-podcast-123/",
+        "order": "3",
+        "time_duration": "2",
+        "time_type": "hours"
+      },
+      {
+        "description": "You may have heard the terms \"Microservice\" and \"Monolith\" before. These are two common approaches to architecting an application. You can think of a Monolith as a stand-alone restaurant, and a Microservice as a food stall in a larger food court with shared tables and shared bathrooms. This tutorial will show you the common arguments for building your apps using each of these architectures. It will also walk you common configurations using lots of helpful diagrams.",
+        "link": "https://www.freecodecamp.org/news/microservices-vs-monoliths-explained/",
+        "order": "4",
+        "time_duration": "20",
+        "time_type": "minutes"
+      },
+      {
+        "description": "WordPress is one of the easier-to-use tools for building websites. freeCodeCamp teacher Beau Carnes just published a crash course on how to get a WordPress site live. The course includes a walkthrough of some new AI tools that can make this process even faster.",
+        "link": "https://www.freecodecamp.org/news/how-to-use-wordpress-with-ai-tools/",
+        "order": "5",
+        "time_duration": "1",
+        "time_type": "hours"
+      }
+    ]
+  }
